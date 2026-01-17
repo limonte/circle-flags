@@ -44,7 +44,7 @@ If you're using [SolidJS](https://www.solidjs.com/), you may want to try the [so
 If you want to install this package as a dependency, you can install it from this GitHub repository:
 
 ```sh
-npm install --save https://github.com/HatScripts/circle-flags
+npm install circle-flags
 ```
 
 ### 📜 Userscripts

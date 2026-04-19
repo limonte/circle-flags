@@ -1,7 +1,12 @@
 {
   "name": "circle-flags",
-  "version": "1.0.0",
+  "version": "2.8.3",
   "description": "A collection of circular SVG country flags.",
+  "scripts": {
+    "prepack": "node scripts/package-symlinks.cjs materialize",
+    "postpack": "node scripts/package-symlinks.cjs restore",
+    "postpublish": "node scripts/package-symlinks.cjs restore"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HatScripts/circle-flags.git"
